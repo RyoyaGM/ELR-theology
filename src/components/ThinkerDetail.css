@@ -1,0 +1,65 @@
+.detail-container {
+  margin-top: 40px;
+  padding: 32px;
+  background-color: var(--card-bg-color);
+  border-radius: 8px;
+  border-top: 5px solid var(--border-color);
+  animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.detail-header {
+  margin-bottom: 24px;
+}
+
+.school-badge {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 16px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.detail-container h2 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+.detail-container h4 {
+  font-size: 1.2rem;
+  color: #333;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 8px;
+  margin-top: 32px;
+}
+
+.detail-container p {
+  line-height: 1.8;
+  color: #444;
+}
+
+.principle-card {
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  padding: 16px;
+  margin: 16px 0;
+  border-radius: 4px;
+}
+
+.principle-card strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.conclusion-text {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
