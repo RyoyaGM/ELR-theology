@@ -1,0 +1,32 @@
+.thinker-card {
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 20px;
+  background-color: var(--card-bg-color);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-left-width: 6px;
+}
+
+.thinker-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+}
+
+.thinker-card h3 {
+  margin-top: 0;
+  font-size: 1.3rem;
+}
+
+.thinker-card .school-name {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.thinker-card .catchphrase {
+  font-size: 0.95rem;
+  color: #555;
+  font-style: italic;
+  margin: 0;
+}
